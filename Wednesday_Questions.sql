@@ -42,7 +42,7 @@ WHERE city_id IN(
     ON city.country_id = country.country_id
     WHERE country LIKE 'Nepal'
 );
--- The only customer that live in Nepal is Kevin Schuler.
+-- The only customer that lives in Nepal is Kevin Schuler.
 
 
 -- 5. Which staff member had the most transactions?
